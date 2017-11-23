@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <title>Alkometar</title>
+</head>
+
+<body>
+
+  <h1>Alkometar <img src="img/logo.png" class="logo"></h1>
+
+  <label>Pio sam</label>
+  <select name="pice">
+    <option selected="selected" value="42">Pivo</option>
+    <option value="36">Pivo Pils</option>
+    <option value="48">Crno pivo</option>
+    <option value="21">Liker voćni</option>
+    <!-- <option value="16">Gren</option> -->
+    <option value="25">Pan Pivo/lagano</option>
+    <option value="80">Vino</option>
+    <option value="53">Bambus 2:1</option>
+    <option value="40">Bambus 1:1</option>
+    <option value="53">Gemišt 2:1</option>
+    <option value="40">Gemišt 1:1</option>
+    <option value="80">Šampanjac</option>
+    <option value="367">Žestinu 40%</option>
+    <option value="183">Voćnu Votku 20%</option>
+    <option value="183">Juice Votku</option>
+    <option value="59">Sangriju</option>
+    <option value="275">Jeger/Pelinkovac</option>
+    <!-- <option value="0">Deci đusa/deci vode</option> -->
+  </select>
+
+  <label>Iz čaše od</label>
+  <select name="posuda">
+    <option value="50">0.5 l</option>
+    <option selected="selected" value="30">3 dl</option>
+    <option value="20">2 dl</option>
+    <option value="25">2,5 dl</option>
+    <option value="10">1 dl</option>
+    <option value="3">0.3 dl</option>
+    <option value="6">0.6 dl</option>
+  </select>
+
+  <label>Komada</label>
+  <select name="komada">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option selected="selected" value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+  </select>
+
+  <label>Pijančio sam poslednjih</label>
+  <select name="trajanje">
+    <option value="0">odjednom</option>
+    <option value=".5">pola sata</option>
+    <option value="1">1 sat</option>
+    <option value="2">2 sata</option>
+    <option selected="selected" value="3">3 sata</option>
+    <option value="4">4 sata</option>
+    <option value="5">5 sati</option>
+    <option value="6">6 sati</option>
+    <option value="7">7 sati</option>
+    <option value="8">8 sati</option>
+    <option value="9">9 sati</option>
+    <option value="10">10 sati</option>
+    <option value="11">11 sati</option>
+    <option value="12">12 sati</option>
+    <option value="13">13 sati</option>
+    <option value="14">14 sati</option>
+    <option value="15">15 sati</option>
+    <option value="16">16 sati</option>
+    <option value="17">17 sati</option>
+    <option value="18">18 sati</option>
+    <option value="19">19 sati</option>
+    <option value="20">20 sati</option>
+  </select>
+
+  <label>Prestao sam pre</label>
+  <select name="prestao">
+    <option value="0">malopre</option>
+    <option selected="selected" value=".5">pola sata</option>
+    <option value="1">1 sat</option>
+    <option value="1.5">sat i po</option>
+    <option value="2">2 sata</option>
+    <option value="2.5">dva i po sata</option>
+    <option value="3">3 sata</option>
+    <option value="4">4 sata</option>
+    <option value="5">5 sati</option>
+    <option value="6">6 sati</option>
+    <option value="7">7 sati</option>
+    <option value="8">8 sati</option>
+    <option value="9">9 sati</option>
+    <option value="10">10 sati</option>
+    <option value="11">11 sati</option>
+    <option value="12">12 sati</option>
+    <option value="13">13 sati</option>
+    <option value="14">14 sati</option>
+    <option value="15">15 sati</option>
+    <option value="16">16 sati</option>
+    <option value="17">17 sati</option>
+    <option value="18">18 sati</option>
+    <option value="19">19 sati</option>
+    <option value="20">20 sati</option>
+  </select>
+
+  <label>Moja težina je</label>
+  <select name="tezina">
+    <option value="40">40 kg</option>
+    <option value="42">42 kg</option>
+    <option value="44">44 kg</option>
+    <option value="46">46 kg</option>
+    <option value="48">48 kg</option>
+    <option value="50">50 kg</option>
+    <option value="52">52 kg</option>
+    <option value="54">54 kg</option>
+    <option value="56">56 kg</option>
+    <option value="58">58 kg</option>
+    <option value="60">60 kg</option>
+    <option value="62">62 kg</option>
+    <option value="64">64 kg</option>
+    <option value="66">66 kg</option>
+    <option value="68">68 kg</option>
+    <option selected="selected" value="70">70 kg</option>
+    <option value="72">72 kg</option>
+    <option value="74">74 kg</option>
+    <option value="76">76 kg</option>
+    <option value="78">78 kg</option>
+    <option value="80">80 kg</option>
+    <option value="82">82 kg</option>
+    <option value="84">84 kg</option>
+    <option value="86">86 kg</option>
+    <option value="88">88 kg</option>
+    <option value="90">90 kg</option>
+    <option value="92">92 kg</option>
+    <option value="94">94 kg</option>
+    <option value="96">96 kg</option>
+    <option value="98">98 kg</option>
+    <option value="100">100 kg</option>
+    <option value="102">102 kg</option>
+    <option value="104">104 kg</option>
+    <option value="106">106 kg</option>
+    <option value="108">108 kg</option>
+    <option value="110">110 kg</option>
+    <option value="112">112 kg</option>
+    <option value="115">115 kg</option>
+    <option value="120">120 kg</option>
+    <option value="125">125 kg</option>
+    <option value="130">130 kg</option>
+    <option value="135">135 kg</option>
+    <option value="140">140 kg</option>
+    <option value="145">145 kg</option>
+    <option value="150">150 kg</option>
+  </select>
+
+  <label>Moj pol je</label>
+  <select name="pol">
+    <option selected="selected" value=".7">Muški</option>
+    <option value=".6">Ženski</option>
+  </select>
+
+  <p>U krvi imaš <span id="rezultat">0</span> promila alkohola.</p>
+  <b id="savet"></b>
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

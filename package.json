@@ -1,0 +1,17 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "helloworld",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-vibration": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~6.3.0",
+    "cordova-plugin-vibration": "~2.1.5"
+  }
+}

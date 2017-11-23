@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.skolakoda.alkometar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Alkometar</name>
+    <description>
+      Aplikacija za procenu nivoa alkohola u krvi.
+  </description>
+    <author href="https://github.com/mudroljub">
+      Damjan Pavlica
+  </author>
+    <icon src="img/logo.png" />
+    <engine name="android" spec="~6.3.0" />
+    <plugin name="cordova-plugin-vibration" spec="~2.1.5" />
+</widget>
