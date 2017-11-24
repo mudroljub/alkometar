@@ -20,7 +20,6 @@ function update() {
   else if (rezultat < 6) savet = "Potpuno pijanstvo, ne možes gledati na oči, a kamoli voziti."
   else savet = "Ne pravi se važan, toliko ne možeš popiti."
   document.getElementById('savet').innerText = savet
-  navigator.vibrate(2000)
 }
 
 var izbori = document.querySelectorAll('select')

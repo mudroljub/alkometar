@@ -9,5 +9,4 @@
   </author>
     <icon src="www/img/alkohol.png" />
     <engine name="android" spec="~6.3.0" />
-    <plugin name="cordova-plugin-vibration" spec="~2.1.5" />
 </widget>

@@ -6,12 +6,9 @@
     "platforms": [
       "android"
     ],
-    "plugins": {
-      "cordova-plugin-vibration": {}
-    }
+    "plugins": {}
   },
   "dependencies": {
-    "cordova-android": "~6.3.0",
-    "cordova-plugin-vibration": "~2.1.5"
+    "cordova-android": "~6.3.0"
   }
 }
