@@ -18,7 +18,7 @@ function update() {
   else if (rezultat <= 1.6) savet = "Teško pijanstvo, ne pomišljaj sesti za volan."
   else if (rezultat <= 2) savet = "Veoma teško pijanstvo, ne pomišljaj sesti za volan."
   else if (rezultat < 6) savet = "Potpuno pijanstvo, ne možes gledati na oči, a kamoli voziti."
-  else savet = "Trovanje alkoholom, smrtna opasnost."
+  else savet = "Smrtonosna koncentracija alkohola."
   document.getElementById('savet').innerText = savet
 }
 
