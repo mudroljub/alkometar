@@ -8,7 +8,7 @@
   "author": "Damjan Pavlica",
   "icons": [
     {
-      "src": "www/img/alkohol.png",
+      "src": "icon.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     }

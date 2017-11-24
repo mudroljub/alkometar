@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.skolakoda.alkometar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <icon src="icon.png" />
     <name>Alkometar</name>
     <description>
-      Aplikacija za procenu nivoa alkohola u krvi.
+    Aplikacija za procenu nivoa alkohola u krvi.
   </description>
     <author href="https://github.com/mudroljub">
-      Damjan Pavlica
+    Damjan Pavlica
   </author>
-    <icon src="www/img/alkohol.png" />
 </widget>
