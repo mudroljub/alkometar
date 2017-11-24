@@ -4,11 +4,11 @@
   "name": "Alkometar",
   "short_name": "Alkometar",
   "version": "org.skolakoda.alkometar",
-  "description": "Procena nivoa alkohola u krvi.",
+  "description": "Aplikacija za procenu nivoa alkohola u krvi.",
   "author": "Damjan Pavlica",
   "icons": [
     {
-      "src": "img/logo.png",
+      "src": "www/img/logo.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     }

@@ -2,10 +2,10 @@
 <widget id="org.skolakoda.alkometar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Alkometar</name>
     <description>
-      Procena nivoa alkohola u krvi.
+      Aplikacija za procenu nivoa alkohola u krvi.
   </description>
     <author href="https://github.com/mudroljub">
       Damjan Pavlica
   </author>
-    <icon src="img/logo.png" />
+    <icon src="www/img/logo.png" />
 </widget>
