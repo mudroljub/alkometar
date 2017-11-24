@@ -7,7 +7,7 @@
     <author href="https://github.com/mudroljub">
       Damjan Pavlica
   </author>
-    <icon src="img/logo.png" />
+    <icon src="www/img/logo.png" />
     <engine name="android" spec="~6.3.0" />
     <plugin name="cordova-plugin-vibration" spec="~2.1.5" />
 </widget>
