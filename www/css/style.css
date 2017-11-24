@@ -13,8 +13,8 @@ select {
   -webkit-appearance: listbox;
   border-radius: 6px;
   border: 1px solid #5E7C88;
-  height: 32px;
-  line-height: 32px;
+  height: 34px;
+  line-height: 34px;
   width: 100%;
 }
 
@@ -23,6 +23,10 @@ h1 {
   display: flex;
   font-size: 36px;
   justify-content: space-around;
+  margin: 16px 0;
+}
+
+p {
   margin: 16px 0;
 }
 

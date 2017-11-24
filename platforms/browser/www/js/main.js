@@ -15,10 +15,10 @@ function update() {
   if (rezultat < 0.2) savet = "Potpuno si trezan."
   else if (rezultat <= 0.50) savet = "Umereno pijanstvo, još nisi za vožnju."
   else if (rezultat <= 1.19) savet = "Srednje pijanstvo, ozbiljna kazna, bolje uzmi taksi."
-  else if (rezultat <= 1.6) savet = "Teško pijanstvo, ni ne pomišljaj sesti za volan."
-  else if (rezultat <= 2) savet = "Veoma teško pijanstvo, ni ne pomišljaj sesti za volan."
+  else if (rezultat <= 1.6) savet = "Teško pijanstvo, ne pomišljaj sesti za volan."
+  else if (rezultat <= 2) savet = "Veoma teško pijanstvo, ne pomišljaj sesti za volan."
   else if (rezultat < 6) savet = "Potpuno pijanstvo, ne možes gledati na oči, a kamoli voziti."
-  else savet = "Ne pravi se važan, toliko ne možeš popiti."
+  else savet = "Trovanje alkoholom, smrtna opasnost."
   document.getElementById('savet').innerText = savet
 }
 
