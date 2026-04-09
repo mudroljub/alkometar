@@ -9,6 +9,6 @@
     "plugins": {}
   },
   "dependencies": {
-    "cordova-android": "~6.3.0"
+    "cordova-android": "~15.0.0"
   }
 }
